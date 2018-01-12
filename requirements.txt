@@ -1,0 +1,5 @@
+jupyter
+matplotlib
+pandas
+tensorflow-gpu>=1.3
+tqdm
