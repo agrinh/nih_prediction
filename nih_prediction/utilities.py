@@ -10,7 +10,7 @@ SLIM_VARIABLES = [slim.model_variable, slim.variable]
 def tower(model_fn, batch_input, batch_target, gpus):
     """Creates a towered model with operations on GPUs and Variables on CPU
 
-    The batch is split along the first axis across the GPUs, you mus make sure
+    The batch is split along the first axis across the GPUs, you must make sure
     the batch is evenly number of GPUs.
 
     Args:
