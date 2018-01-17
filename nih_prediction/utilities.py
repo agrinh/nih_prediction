@@ -11,7 +11,7 @@ def tower(model_fn, batch_input, batch_target, gpus):
     """Creates a towered model with operations on GPUs and Variables on CPU
 
     The batch is split along the first axis across the GPUs, you must make sure
-    the batch is evenly number of GPUs.
+    the batch is evenly divisible with the number of GPUs.
 
     Args:
         model_fn: Accepts input and target tensors and returns a loss tensor
