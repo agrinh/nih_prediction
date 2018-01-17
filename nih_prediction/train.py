@@ -19,7 +19,7 @@ tqdm.monitor_interval = 0  # Avoids bug
 
 
 def build_model(images, labels):
-    """Build ResNet model model for multilabel classification
+    """Build ResNet model for multilabel classification
 
     Variables are placed on CPU and only created once. Global variable
     MODEL_EXISTS keeps track of if these have been created or not.
